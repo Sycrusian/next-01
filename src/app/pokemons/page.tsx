@@ -24,7 +24,7 @@ const Pokemons = async () => {
     <ul>
       {pokemons.results.map((pokemon, index) => {
         return (
-          <Link key={index} href={`/pokemon/${index+1}`}>
+          <Link key={index} href={`/pokemons/${index+1}`}>
             <li>{pokemon.name}</li>
           </Link>
         );
